@@ -1,0 +1,32 @@
+a = input("Enter the number you want: ")
+b = input("Enter the number you want: ")
+c = input("Enter the number you want: ")
+d = input("Enter the number you want: ")
+e = input("Enter the number you want: ")
+f = input("Enter the number you want: ")
+g = input("Enter the number you want: ")
+h = input("Enter the number you want: ")
+
+A = {a, b, c, d, e, f, g, h}
+print(A, type(A))
+
+#At here both are giveing same value but upper one is worng bcz its ask for uniqe numbers and we add string we need to make it first in intiger
+
+s = set()
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+n = input("Enter number: ")
+s.add(int(n))
+print(s)
