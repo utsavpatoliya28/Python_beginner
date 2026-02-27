@@ -7,3 +7,4 @@ marks = {
 
 #print(marks, type(marks))
 print(marks["Utsav"])
+

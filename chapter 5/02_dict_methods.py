@@ -13,3 +13,4 @@ print(marks)
 
 print(marks.get("Utsav2"))#It gives none
 print(marks["Utsav2"])#It gives error
+
